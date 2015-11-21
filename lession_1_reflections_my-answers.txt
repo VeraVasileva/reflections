@@ -1,0 +1,13 @@
+Command 'diff' is very useful command for finding bugs when we speak about two versions of a file.
+
+Easy access to the entire history of a file help to refresh all changes made in it during its creation.
+Also it helps to find typos or information which have been deleted.
+
+The big pros in manual commits is to choose when to do it. Because only author of the document may say when he or she logically finished editing.
+
+Version control systems allow saving multiple files in ome commit because you use manual saving.
+
+Git log command show a list of recent commits with information about them including commit IDs. 
+Git diff allow to compare to commits, i.e. what was changed (deleted and added)
+
+You may do checkouts.
