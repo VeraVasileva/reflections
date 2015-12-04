@@ -2,3 +2,12 @@ git init - initialize empty directory. Эта команда создаёт в �
 
 Staging area store files before commit, so you may cancel files.
 
+How can you use the staging area to make sure you have one commit per logical change?
+First you need to use git diff --staged command to see what wasn't commited yet, and then commit files by one.
+
+Several branches helps to have different levels of complexity of one game for example.
+Master branch is a production branch and you can create DEV branch.
+
+The diagrams visualize the branch structure and we can see what commits were made in each branch.
+
+The result of merging two branches together is a union of two documents which were edited by different people. 
